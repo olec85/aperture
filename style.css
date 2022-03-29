@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background: #181818;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4px;
+}
+.header__logo-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    margin: 30px 0 29px 32px;
+}
+.areas{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;  
+    color: #FFFFFF;
+    margin-right: 56px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.featur{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 32px;
+    margin-bottom: 34px;
+    margin-top: 36px;
+}
+.gear{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 32px;
+    margin-bottom: 34px;
+    margin-top: 36px;
+}
+.contact{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 31px;
+    margin-bottom: 34px;
+    margin-top: 36px;
+}
+.header__button{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 9px 20px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.bg{
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 716px;
+}
+.bg__header{
+    margin: 0 auto;
+    width: 600px;
+    height: 80px;
+    padding-top: 35%;
+}
+.h3{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 1px;
+}
+.h1{
+    font-size: 54px;
+    line-height: 59px;  
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.frame{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 11%;
+}
+.frame__img{
+    margin-left: 16px;
+}
+.what{
+    background: #000000;
+    padding-bottom: 100px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 16px;
+}
+.item1{
+    background-image: url(image/item1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.item2{
+    background-image: url(image/item2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.item3{
+    background-image: url(image/item3.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.item4{
+    background-image: url(image/item4.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.item__h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.item__p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    width: 501px;
+}
+.item__button{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 9px 10px 13px 42px;
+    position: absolute;
+    cursor: pointer;
+}
+.circle{
+    position:relative;
+    width: 32px;
+    height: 32px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.item__button-circle{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.item__h3, .item__p{
+    margin-left: 30px;
+}
+.mountain{
+    background-image: url(image/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.mountain__box{
+    width: 300px;
+    float: right;
+    margin-top: 25%;
+}
+.mountain__h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.mountain__p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.frame__mountain{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 35%;
+}
+.frame__mountain-img{
+    margin-left: 16px;
+}
+.bg__foto{
+    background: #000000;
+    position: relative;
+}
+.bg__foto-item{
+    display: flex;
+    height: 540px;
+   
+}
+.bg__foto-left{
+    margin-top:15%;
+    width: 40%;
+}
+.bg__foto-right{
+    background-image: url(image/bg-foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    width: 720px;
+    position: absolute;
+    margin-left: 42%;
+}
+.bg__foto-frame{
+    position: relative;
+    margin-top: 68%;
+    margin-left: 46%;
+}
+
+.bg__foto-h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.bg__foto-h1{
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.bg__foto-p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 540px;
+    margin-bottom: 20px;
+}
+.bg__button-circle{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.bg__button{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 9px 10px 13px 42px;
+    position: absolute;
+    cursor: pointer;
+}
+.bg__circle{
+    position:relative;
+    width: 32px;
+    height: 32px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.bg__flower{
+    background-image: url(image/flower.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.bg__flower-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 25%;
+}
+.flower-h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.flower-p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    width: 273px;
+}
